@@ -21,4 +21,7 @@ import static org.junit.Assert.*;
         TestMultiplication.class
 })
 public class TestMathUtilities {
+
+    private MathUtilities utilities;
+    private static final double DELTA = 0.009;
 }
